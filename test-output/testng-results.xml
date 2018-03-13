@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[hiiiiii]]>
+      <![CDATA[testc]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="47" started-at="2018-03-08T11:24:06Z" finished-at="2018-03-08T11:24:06Z">
+  <suite name="Default suite" duration-ms="227" started-at="2018-03-13T08:07:45Z" finished-at="2018-03-13T08:07:46Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47" started-at="2018-03-08T11:24:06Z" finished-at="2018-03-08T11:24:06Z">
-      <class name="qsp.DemoA">
-        <test-method status="PASS" signature="testA()[pri:0, instance:qsp.DemoA@27f723]" name="testA" duration-ms="11" started-at="2018-03-08T11:24:06Z" finished-at="2018-03-08T11:24:06Z">
+    <test name="Default test" duration-ms="227" started-at="2018-03-13T08:07:45Z" finished-at="2018-03-13T08:07:46Z">
+      <class name="qsp.Democ">
+        <test-method status="PASS" signature="Testng()[pri:0, instance:qsp.Democ@59f99ea]" name="Testng" duration-ms="22" started-at="2018-03-13T13:37:45Z" finished-at="2018-03-13T13:37:46Z">
           <reporter-output>
             <line>
-              <![CDATA[hiiiiii]]>
+              <![CDATA[testc]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testA -->
-      </class> <!-- qsp.DemoA -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Testng -->
+      </class> <!-- qsp.Democ -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

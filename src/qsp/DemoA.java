@@ -9,5 +9,9 @@ public class DemoA {
 	{
 		Reporter.log("hiiiiii",true);
 	}
+	public void testB()
+	{
+		Reporter.log("Byeeeee",true);
+	}
 
 }
