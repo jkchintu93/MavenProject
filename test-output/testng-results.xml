@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[testc]]>
+      <![CDATA[rock]]>
+    </line>
+    <line>
+      <![CDATA[show]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="227" started-at="2018-03-13T08:07:45Z" finished-at="2018-03-13T08:07:46Z">
+  <suite name="Default suite" duration-ms="46" started-at="2018-03-13T08:28:36Z" finished-at="2018-03-13T08:28:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="227" started-at="2018-03-13T08:07:45Z" finished-at="2018-03-13T08:07:46Z">
-      <class name="qsp.Democ">
-        <test-method status="PASS" signature="Testng()[pri:0, instance:qsp.Democ@59f99ea]" name="Testng" duration-ms="22" started-at="2018-03-13T13:37:45Z" finished-at="2018-03-13T13:37:46Z">
+    <test name="Default test" duration-ms="46" started-at="2018-03-13T08:28:36Z" finished-at="2018-03-13T08:28:36Z">
+      <class name="qsp.DemoB">
+        <test-method status="PASS" signature="testA()[pri:0, instance:qsp.DemoB@59f99ea]" name="testA" duration-ms="16" started-at="2018-03-13T13:58:36Z" finished-at="2018-03-13T13:58:36Z">
           <reporter-output>
             <line>
-              <![CDATA[testc]]>
+              <![CDATA[rock]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Testng -->
-      </class> <!-- qsp.Democ -->
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testB()[pri:0, instance:qsp.DemoB@59f99ea]" name="testB" duration-ms="15" started-at="2018-03-13T13:58:36Z" finished-at="2018-03-13T13:58:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[show]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- qsp.DemoB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

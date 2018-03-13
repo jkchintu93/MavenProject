@@ -3,6 +3,8 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="qsp.Democ"/>
+      <class name="qsp.DemoB"/>
       <class name="qsp.DemoA"/>
     </classes>
   </test> <!-- Test -->

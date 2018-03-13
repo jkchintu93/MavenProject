@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 
 public class Democ {
 	@Test
-	public void Testng()
+	public void TestC()
 	{
-		Reporter.log("testc",true);
+		Reporter.log("test(C)",true);
 	}
 
 }
